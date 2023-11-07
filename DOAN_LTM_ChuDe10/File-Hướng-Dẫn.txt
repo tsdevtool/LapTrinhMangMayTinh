@@ -1,0 +1,39 @@
+Chương trình mô phỏng hệ thống Email bằng JavaSocket
+
+- Các bước thực hiện bên phía Client
+Bước 1:
+    Mở chương trình Email bằng lớp Main.java trong project DOAN_LTM_EMAIL_UP hoặc có thể mở trực tiếp bằng file có đuôi Main.exe
+Bước 2:
+    Sau khi mở chương trình thì màn hình giao diện Trang Chủ sẽ hiện ra bao gồm các thành phần:
+        - Đăng Nhập:
+            Click vào nút đăng nhập để mở trang Login để có thể đăng nhập tài Khoản
+            Khi trang đăng nhập được hiện lên nếu bạn chưa có tài khoản có thể nhấn vào dòng chữ chưa có tài khoản để đăng ký tài khoản mới
+            Nếu đã có tài khoản rồi thì đăng nhập tài khoản để tiến hành bước tiếp theo
+            Một số tài khoản đã có sẵn:
+                + Tài khoản: sieu3213@gmail.com 
+                + Mật khẩu: 08042003
+
+        - Tạo Tài Khoản:
+            Nếu chưa có tài khoản có thể tạo tài khoản mới bằng cách click vào dòng tạo tài khoản(màu xanh) để đăng ký tài khoản mới
+            Yêu cầu: Nhập đầy đủ các thông tin và mật khẩu với khớp với nhau
+            Sau khi nhập đầy đủ thông tin nhấn đăng ký để đăng ký tài khoản mới
+            Sau đó có thể đăng nhập vào để tiến hành bước tiếp theo
+Bước 3:
+    Sau khi đăng nhập thành công trang chính sẽ mở ra có thể thực hiện các yêu cầu sau để thực hiện
+        - Nút Send Mail: Được dùng để hiển thị trang gửi thư
+            Nhập email người nhận, tiêu đề, nội dung email
+            Nút File attachment: được dùng để chọn file 
+            Nút Send: gửi email đến cho người nhận
+        - Nút Inbox: được dùng để hiển thị danh sách email đã nhận nhưng chưa đọc
+            Nhấn chọn dòng cần đọc để đọc email, nhấn nút reply nếu muốn trả lời email
+            Trang trả lời email được hiển thị, các bước còn lại thực thi như lúc gửi thư            
+        - Nút Sent: được dùng để hiển thị danh sách email đã gửi đi
+            Nhấn chọn dòng cần đọc để đọc email, nhấn nút reply nếu muốn trả lời email
+            Trang trả lời email được hiển thị, các bước còn lại thực thi như lúc gửi thư  
+        - Nút Spam: được dùng để hiển thị danh sách email bị đánh dấu Spam
+            Nhấn chọn dòng cần đọc để đọc email, nhấn nút reply nếu muốn trả lời email
+            Trang trả lời email được hiển thị, các bước còn lại thực thi như lúc gửi thư  
+        - Nút Bin: được dùng để hiển thị danh sách email đã xóa
+            Nhấn chọn dòng cần đọc để đọc email, nhấn nút reply nếu muốn trả lời email
+            Trang trả lời email được hiển thị, các bước còn lại thực thi như lúc gửi thư  
+        
